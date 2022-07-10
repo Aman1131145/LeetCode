@@ -12,7 +12,7 @@ public class RichestCustomerWealth {
                 arr[i][m] = sc.nextInt();
             }
         }
-        System.err.println(maximumWealth(arr));
+        System.out.println(maximumWealth(arr));
         sc.close();
     }
 
