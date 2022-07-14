@@ -12,6 +12,10 @@ public class GoodPairs {
         sc.close();
     }
 
+    /**
+     * @param nums
+     * @return
+     */
     private static int numIdenticalPairs(int[] nums) {
         int count = 0;
         for(int i = 0; i< nums.length; i++){
